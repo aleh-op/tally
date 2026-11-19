@@ -15,7 +15,7 @@ steps:
   # offline machine still converges.
   - name: "rust-quality at {{ rq_ref }}"
     git:
-      repo: https://github.com/alehatsman/rust-quality.git
+      repo: https://github.com/aleh-op/rust-quality.git
       dest: "{{ rq_dir }}"
       ref: "{{ rq_ref }}"
 
