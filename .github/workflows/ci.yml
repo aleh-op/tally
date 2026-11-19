@@ -52,7 +52,7 @@ jobs:
           tmux -V
 
       - name: Install provision
-        run: cargo install --locked --git https://github.com/alehatsman/provision.git
+        run: cargo install --locked --git https://github.com/aleh-op/provision.git
 
       # Checks out rust-quality at the pin and installs nextest, deny and
       # machete. The pin lives in tasks/tools.yml and nowhere else.
